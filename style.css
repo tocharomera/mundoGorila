@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+@media (max-width: 1298px){
+}
+.banner{
+	width: 20%;
+	height: 20%;
+	float:left;
+	position: absolute;
+}
+#gorila{
+	display: block;
+	margin: auto;
+}
+body{
+	display: block;
+	margin: auto;
+	width: 90%;
+	background-color: #F87173;
+}
