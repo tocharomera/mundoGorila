@@ -1,10 +1,13 @@
 @charset "utf-8";
 
+@font-face {
+	font-family: Consolas;
+	src: url(Consolas.ttf);
+}
 @media (max-width: 1298px){
 }
 .banner{
-	width: 20%;
-	height: 20%;
+	display: table;
 	float:left;
 	position: absolute;
 }
@@ -12,7 +15,17 @@
 	display: block;
 	margin: auto;
 }
+.title{
+	color:black;
+}
 body{
+	font-family: Consolas;
+	overflow-wrap: break-word;
+	text-align: justify;
+	text-justify: inter-word;
+	color:#292828;
+	left: 0px;
+	top:0px;
 	display: block;
 	margin: auto;
 	width: 90%;
